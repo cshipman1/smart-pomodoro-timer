@@ -1,0 +1,19 @@
+# Arduino Sketch build files
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+*.d
+*.o
+*.a
+*.cpp
+*.lst
+*.s
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
