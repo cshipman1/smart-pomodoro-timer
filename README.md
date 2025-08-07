@@ -21,24 +21,25 @@ The Smart Pomodoro Timer is a physical productivity tool designed to help you st
 
 ## Hardware Used
 
-- Arduino Uno or Nano
+- Arduino Uno
 - PIR motion sensor
 - OLED display (I2C)
 - MicroSD card module
 - DS3231 RTC module
 - Push button
-- RGB LED (or multiple LEDs)
+- Red LED
+- Green LED
+- Orange LED
 - Passive Buzzer
+- AMS1117 5V to 3.3V Voltage Regulator
+- Bi-Directional 5V to 3.3V Logic Level Shifter (4-Channel)
 - Jumper wires, breadboard, electrical components
 - 3D-printed case (optional)
 
 
 ## Circuit Diagram
 
-> *Coming soon – will be added as `circuit-diagram.png` in /hardware*
-
-<!-- Uncomment this line when you have the image -->
-<!-- ![Circuit Diagram](hardware/circuit-diagram.png) -->
+![Circuit Diagram](hardware/Smart-Pomodoro-Timer_Diagram.png)
 
 
 ## State Diagram
@@ -75,7 +76,7 @@ Logs are saved to SD card with timestamps from the DS3231 RTC module.
 - [x] Created state diagram
 - [x] Wrote detailed project README
 - [x] Documented timer states and parts list in `/docs/`
-- [ ] Create and upload circuit diagram to `/hardware/`
+- [x] Create and upload circuit diagram to `/hardware/`
 - [ ] Build and test full circuit on breadboard
 - [ ] Write and upload Arduino code to `/firmware/`
 - [ ] Test timer and motion detection logic (auto-pause, idle reset)
