@@ -6,6 +6,24 @@ Arduino-based Pomodoro timer with motion detection and logging
 
 The Smart Pomodoro Timer is a physical productivity tool designed to help you stay focused using the Pomodoro Technique. It combines a 25-minute focus timer with a 5-minute break cycle, enhanced by motion detection to pause or shut down if you leave your desk. Visual and audio feedback keep you aware of your state, and an SD card logs your work sessions for later review. This project blends embedded systems and productivity design for makers, students, and engineers.
 
+## Demo Videos
+
+### Video 1 – LED + Button (state machine test)
+- Shows: Idle → Focus → Break → Idle, and Idle → Shutdown after some seconds 
+- Link: https://youtu.be/eCMTr3EPzk4
+
+### Video 2 – PIR Auto-Pause and Buzzer (coming soon)
+- Shows: Auto-pause on no motion, resume on motion with buzzer to signify state change
+- Link: (TBD)
+
+### Video 3 – OLED Countdown (coming soon)
+- Shows: Focus/Break countdown on SSD1306
+- Link: (TBD)
+
+### Video 4 – SD Logging (coming soon)
+- Shows: Log entries written to microSD with timestamps
+- Link: (TBD)
+
 
 ## Features
 
