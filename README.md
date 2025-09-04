@@ -109,5 +109,6 @@ Logs are saved to SD card with timestamps from the DS3231 RTC module.
 
 This project is open-source under the [MIT License](LICENSE).
 
+Photos/diagrams/videos by Cayla Shipman
 
 
