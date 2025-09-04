@@ -1,5 +1,5 @@
-# Smart Pomodoro Timer
-Arduino-based Pomodoro timer with motion detection and logging
+# Smart Pomodoro Timer 
+Arduino-based Pomodoro timer with motion detection and logging. Work in Progress.
 
 
 ## Purpose
