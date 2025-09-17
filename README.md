@@ -12,9 +12,9 @@ The Smart Pomodoro Timer is a physical productivity tool designed to help you st
 - Shows: Idle → Focus → Break → Idle, and Idle → Shutdown after some seconds 
 - Link: https://youtu.be/eCMTr3EPzk4
 
-### Video 2 – PIR Auto-Pause and Buzzer (coming soon)
+### Video 2 – PIR Auto-Pause and Buzzer
 - Shows: Auto-pause on no motion, resume on motion with buzzer to signify state change
-- Link: (TBD)
+- Link: https://youtu.be/DpqMGeNr8Wc
 
 ### Video 3 – OLED Countdown (coming soon)
 - Shows: Focus/Break countdown on SSD1306
@@ -95,10 +95,10 @@ Logs are saved to SD card with timestamps from the DS3231 RTC module.
 - [x] Wrote detailed project README
 - [x] Documented timer states and parts list in `/docs/`
 - [x] Create and upload circuit diagram to `/hardware/`
-- [ ] Build and test full circuit on breadboard
-- [ ] Write and upload Arduino code to `/firmware/`
-- [ ] Test timer and motion detection logic (auto-pause, idle reset)
+- [x] Build on breadboard
+- [x] Test timer and motion detection logic (auto-pause, idle reset)
 - [ ] Verify SD card logging with DS3231 timestamps
+- [ ] Write and upload entire Arduino code to `/firmware/`
 - [ ] Capture and upload real-world photos of the project (`/media/`)
 - [ ] (Optional) 3D print or design an enclosure
 - [ ] Record short demo video or GIF of the timer in action
